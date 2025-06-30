@@ -1,0 +1,1505 @@
+🔍 Neue Suchanfrage erhalten...
+🔍 Neue Suchanfrage erhalten...
+🔎 Suchbegriff: ac
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 1
+            [customer_id] => 1
+            [name] => Acme Corp
+            [details] => Kontakt: John Doe, E-Mail: john.doe@example.com
+        )
+
+    [1] => Array
+        (
+            [type] => hardware
+            [id] => 20
+            [customer_id] => 1
+            [name] => Laptop - Dell (12, SN: W_364, Status: active) - Kunde: Acme Corp
+        )
+
+    [2] => Array
+        (
+            [type] => hardware
+            [id] => 47
+            [customer_id] => 1
+            [name] => Server - Intel (73_B, SN: 4278721, Status: active) - Kunde: Acme Corp
+        )
+
+    [3] => Array
+        (
+            [type] => hardware
+            [id] => 48
+            [customer_id] => 6
+            [name] => shino - d (d, SN: d, Status: active) - Kunde: Data Syncc GmbH
+        )
+
+)
+
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 1
+            [customer_id] => 1
+            [name] => Acme Corp
+            [details] => Kontakt: John Doe, E-Mail: john.doe@example.com
+        )
+
+    [1] => Array
+        (
+            [type] => hardware
+            [id] => 20
+            [customer_id] => 1
+            [name] => Laptop - Dell (12, SN: W_364, Status: active) - Kunde: Acme Corp
+        )
+
+    [2] => Array
+        (
+            [type] => hardware
+            [id] => 47
+            [customer_id] => 1
+            [name] => Server - Intel (73_B, SN: 4278721, Status: active) - Kunde: Acme Corp
+        )
+
+    [3] => Array
+        (
+            [type] => hardware
+            [id] => 48
+            [customer_id] => 6
+            [name] => shino - d (d, SN: d, Status: active) - Kunde: Data Syncc GmbH
+        )
+
+)
+
+🔍 Neue Suchanfrage erhalten...
+🔎 Suchbegriff: acm
+🔍 Neue Suchanfrage erhalten...
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 1
+            [customer_id] => 1
+            [name] => Acme Corp
+            [details] => Kontakt: John Doe, E-Mail: john.doe@example.com
+        )
+
+)
+
+🔎 Suchbegriff: acm
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 1
+            [customer_id] => 1
+            [name] => Acme Corp
+            [details] => Kontakt: John Doe, E-Mail: john.doe@example.com
+        )
+
+)
+
+🔍 Neue Suchanfrage erhalten...
+🔎 Suchbegriff: acme
+🔍 Neue Suchanfrage erhalten...
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 1
+            [customer_id] => 1
+            [name] => Acme Corp
+            [details] => Kontakt: John Doe, E-Mail: john.doe@example.com
+        )
+
+)
+
+🔎 Suchbegriff: acme
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 1
+            [customer_id] => 1
+            [name] => Acme Corp
+            [details] => Kontakt: John Doe, E-Mail: john.doe@example.com
+        )
+
+)
+
+🔍 Neue Suchanfrage erhalten...
+🔎 Suchbegriff: Test
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 6
+            [customer_id] => 6
+            [name] => Data Syncc GmbH
+            [details] => Kontakt: Bernd, E-Mail: test@test.de
+        )
+
+    [1] => Array
+        (
+            [type] => software
+            [id] => 28
+            [customer_id] => 2
+            [name] => Test-Software - ff v12 (Tech Innovations)
+        )
+
+    [2] => Array
+        (
+            [type] => software
+            [id] => 29
+            [customer_id] => 6
+            [name] => Test-Software2 - t v55 (Data Syncc GmbH)
+        )
+
+    [3] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 4
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Blink Office)
+        )
+
+    [4] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 3
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Open Office)
+        )
+
+)
+
+🔍 Neue Suchanfrage erhalten...
+🔍 Neue Suchanfrage erhalten...
+🔎 Suchbegriff: te
+🔎 Suchbegriff: te
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+    [1] => Array
+        (
+            [type] => customer
+            [id] => 6
+            [customer_id] => 6
+            [name] => Data Syncc GmbH
+            [details] => Kontakt: Bernd, E-Mail: test@test.de
+        )
+
+    [2] => Array
+        (
+            [type] => hardware
+            [id] => 47
+            [customer_id] => 1
+            [name] => Server - Intel (73_B, SN: 4278721, Status: active) - Kunde: Acme Corp
+        )
+
+    [3] => Array
+        (
+            [type] => software
+            [id] => 28
+            [customer_id] => 2
+            [name] => Test-Software - ff v12 (Tech Innovations)
+        )
+
+    [4] => Array
+        (
+            [type] => software
+            [id] => 29
+            [customer_id] => 6
+            [name] => Test-Software2 - t v55 (Data Syncc GmbH)
+        )
+
+    [5] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 4
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Blink Office)
+        )
+
+    [6] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 3
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Open Office)
+        )
+
+    [7] => Array
+        (
+            [type] => employee
+            [id] => 33
+            [customer_id] => 6
+            [name] => Peter Pan (Kunde: Data Syncc GmbH)
+        )
+
+)
+
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+    [1] => Array
+        (
+            [type] => customer
+            [id] => 6
+            [customer_id] => 6
+            [name] => Data Syncc GmbH
+            [details] => Kontakt: Bernd, E-Mail: test@test.de
+        )
+
+    [2] => Array
+        (
+            [type] => hardware
+            [id] => 47
+            [customer_id] => 1
+            [name] => Server - Intel (73_B, SN: 4278721, Status: active) - Kunde: Acme Corp
+        )
+
+    [3] => Array
+        (
+            [type] => software
+            [id] => 28
+            [customer_id] => 2
+            [name] => Test-Software - ff v12 (Tech Innovations)
+        )
+
+    [4] => Array
+        (
+            [type] => software
+            [id] => 29
+            [customer_id] => 6
+            [name] => Test-Software2 - t v55 (Data Syncc GmbH)
+        )
+
+    [5] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 4
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Blink Office)
+        )
+
+    [6] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 3
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Open Office)
+        )
+
+    [7] => Array
+        (
+            [type] => employee
+            [id] => 33
+            [customer_id] => 6
+            [name] => Peter Pan (Kunde: Data Syncc GmbH)
+        )
+
+)
+
+🔍 Neue Suchanfrage erhalten...
+🔍 Neue Suchanfrage erhalten...
+🔎 Suchbegriff: te
+🔎 Suchbegriff: te
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+    [1] => Array
+        (
+            [type] => customer
+            [id] => 6
+            [customer_id] => 6
+            [name] => Data Syncc GmbH
+            [details] => Kontakt: Bernd, E-Mail: test@test.de
+        )
+
+    [2] => Array
+        (
+            [type] => hardware
+            [id] => 47
+            [customer_id] => 1
+            [name] => Server - Intel (73_B, SN: 4278721, Status: active) - Kunde: Acme Corp
+        )
+
+    [3] => Array
+        (
+            [type] => software
+            [id] => 28
+            [customer_id] => 2
+            [name] => Test-Software - ff v12 (Tech Innovations)
+        )
+
+    [4] => Array
+        (
+            [type] => software
+            [id] => 29
+            [customer_id] => 6
+            [name] => Test-Software2 - t v55 (Data Syncc GmbH)
+        )
+
+    [5] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 4
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Blink Office)
+        )
+
+    [6] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 3
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Open Office)
+        )
+
+    [7] => Array
+        (
+            [type] => employee
+            [id] => 33
+            [customer_id] => 6
+            [name] => Peter Pan (Kunde: Data Syncc GmbH)
+        )
+
+)
+
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+    [1] => Array
+        (
+            [type] => customer
+            [id] => 6
+            [customer_id] => 6
+            [name] => Data Syncc GmbH
+            [details] => Kontakt: Bernd, E-Mail: test@test.de
+        )
+
+    [2] => Array
+        (
+            [type] => hardware
+            [id] => 47
+            [customer_id] => 1
+            [name] => Server - Intel (73_B, SN: 4278721, Status: active) - Kunde: Acme Corp
+        )
+
+    [3] => Array
+        (
+            [type] => software
+            [id] => 28
+            [customer_id] => 2
+            [name] => Test-Software - ff v12 (Tech Innovations)
+        )
+
+    [4] => Array
+        (
+            [type] => software
+            [id] => 29
+            [customer_id] => 6
+            [name] => Test-Software2 - t v55 (Data Syncc GmbH)
+        )
+
+    [5] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 4
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Blink Office)
+        )
+
+    [6] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 3
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Open Office)
+        )
+
+    [7] => Array
+        (
+            [type] => employee
+            [id] => 33
+            [customer_id] => 6
+            [name] => Peter Pan (Kunde: Data Syncc GmbH)
+        )
+
+)
+
+🔍 Neue Suchanfrage erhalten...
+🔎 Suchbegriff: tech
+🔍 Neue Suchanfrage erhalten...
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+)
+
+🔎 Suchbegriff: tech
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+)
+
+🔍 Neue Suchanfrage erhalten...
+🔍 Neue Suchanfrage erhalten...
+🔎 Suchbegriff: tech
+🔎 Suchbegriff: tech
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+)
+
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+)
+
+🔍 Neue Suchanfrage erhalten...
+🔍 Neue Suchanfrage erhalten...
+🔎 Suchbegriff: tec
+🔎 Suchbegriff: tec
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+)
+
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+)
+
+🔍 Neue Suchanfrage erhalten...
+🔎 Suchbegriff: te
+🔍 Neue Suchanfrage erhalten...
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+    [1] => Array
+        (
+            [type] => customer
+            [id] => 6
+            [customer_id] => 6
+            [name] => Data Syncc GmbH
+            [details] => Kontakt: Bernd, E-Mail: test@test.de
+        )
+
+    [2] => Array
+        (
+            [type] => hardware
+            [id] => 47
+            [customer_id] => 1
+            [name] => Server - Intel (73_B, SN: 4278721, Status: active) - Kunde: Acme Corp
+        )
+
+    [3] => Array
+        (
+            [type] => software
+            [id] => 28
+            [customer_id] => 2
+            [name] => Test-Software - ff v12 (Tech Innovations)
+        )
+
+    [4] => Array
+        (
+            [type] => software
+            [id] => 29
+            [customer_id] => 6
+            [name] => Test-Software2 - t v55 (Data Syncc GmbH)
+        )
+
+    [5] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 4
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Blink Office)
+        )
+
+    [6] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 3
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Open Office)
+        )
+
+    [7] => Array
+        (
+            [type] => employee
+            [id] => 33
+            [customer_id] => 6
+            [name] => Peter Pan (Kunde: Data Syncc GmbH)
+        )
+
+)
+
+🔎 Suchbegriff: te
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+    [1] => Array
+        (
+            [type] => customer
+            [id] => 6
+            [customer_id] => 6
+            [name] => Data Syncc GmbH
+            [details] => Kontakt: Bernd, E-Mail: test@test.de
+        )
+
+    [2] => Array
+        (
+            [type] => hardware
+            [id] => 47
+            [customer_id] => 1
+            [name] => Server - Intel (73_B, SN: 4278721, Status: active) - Kunde: Acme Corp
+        )
+
+    [3] => Array
+        (
+            [type] => software
+            [id] => 28
+            [customer_id] => 2
+            [name] => Test-Software - ff v12 (Tech Innovations)
+        )
+
+    [4] => Array
+        (
+            [type] => software
+            [id] => 29
+            [customer_id] => 6
+            [name] => Test-Software2 - t v55 (Data Syncc GmbH)
+        )
+
+    [5] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 4
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Blink Office)
+        )
+
+    [6] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 3
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Open Office)
+        )
+
+    [7] => Array
+        (
+            [type] => employee
+            [id] => 33
+            [customer_id] => 6
+            [name] => Peter Pan (Kunde: Data Syncc GmbH)
+        )
+
+)
+
+🔍 Neue Suchanfrage erhalten...
+🔎 Suchbegriff: te
+🔍 Neue Suchanfrage erhalten...
+🔎 Suchbegriff: te
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+    [1] => Array
+        (
+            [type] => customer
+            [id] => 6
+            [customer_id] => 6
+            [name] => Data Syncc GmbH
+            [details] => Kontakt: Bernd, E-Mail: test@test.de
+        )
+
+    [2] => Array
+        (
+            [type] => hardware
+            [id] => 47
+            [customer_id] => 1
+            [name] => Server - Intel (73_B, SN: 4278721, Status: active) - Kunde: Acme Corp
+        )
+
+    [3] => Array
+        (
+            [type] => software
+            [id] => 28
+            [customer_id] => 2
+            [name] => Test-Software - ff v12 (Tech Innovations)
+        )
+
+    [4] => Array
+        (
+            [type] => software
+            [id] => 29
+            [customer_id] => 6
+            [name] => Test-Software2 - t v55 (Data Syncc GmbH)
+        )
+
+    [5] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 4
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Blink Office)
+        )
+
+    [6] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 3
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Open Office)
+        )
+
+    [7] => Array
+        (
+            [type] => employee
+            [id] => 33
+            [customer_id] => 6
+            [name] => Peter Pan (Kunde: Data Syncc GmbH)
+        )
+
+)
+
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+    [1] => Array
+        (
+            [type] => customer
+            [id] => 6
+            [customer_id] => 6
+            [name] => Data Syncc GmbH
+            [details] => Kontakt: Bernd, E-Mail: test@test.de
+        )
+
+    [2] => Array
+        (
+            [type] => hardware
+            [id] => 47
+            [customer_id] => 1
+            [name] => Server - Intel (73_B, SN: 4278721, Status: active) - Kunde: Acme Corp
+        )
+
+    [3] => Array
+        (
+            [type] => software
+            [id] => 28
+            [customer_id] => 2
+            [name] => Test-Software - ff v12 (Tech Innovations)
+        )
+
+    [4] => Array
+        (
+            [type] => software
+            [id] => 29
+            [customer_id] => 6
+            [name] => Test-Software2 - t v55 (Data Syncc GmbH)
+        )
+
+    [5] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 4
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Blink Office)
+        )
+
+    [6] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 3
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Open Office)
+        )
+
+    [7] => Array
+        (
+            [type] => employee
+            [id] => 33
+            [customer_id] => 6
+            [name] => Peter Pan (Kunde: Data Syncc GmbH)
+        )
+
+)
+
+🔍 Neue Suchanfrage erhalten...
+🔍 Neue Suchanfrage erhalten...
+🔎 Suchbegriff: te
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+    [1] => Array
+        (
+            [type] => customer
+            [id] => 6
+            [customer_id] => 6
+            [name] => Data Syncc GmbH
+            [details] => Kontakt: Bernd, E-Mail: test@test.de
+        )
+
+    [2] => Array
+        (
+            [type] => hardware
+            [id] => 47
+            [customer_id] => 1
+            [name] => Server - Intel (73_B, SN: 4278721, Status: active) - Kunde: Acme Corp
+        )
+
+    [3] => Array
+        (
+            [type] => software
+            [id] => 28
+            [customer_id] => 2
+            [name] => Test-Software - ff v12 (Tech Innovations)
+        )
+
+    [4] => Array
+        (
+            [type] => software
+            [id] => 29
+            [customer_id] => 6
+            [name] => Test-Software2 - t v55 (Data Syncc GmbH)
+        )
+
+    [5] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 4
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Blink Office)
+        )
+
+    [6] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 3
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Open Office)
+        )
+
+    [7] => Array
+        (
+            [type] => employee
+            [id] => 33
+            [customer_id] => 6
+            [name] => Peter Pan (Kunde: Data Syncc GmbH)
+        )
+
+)
+
+🔎 Suchbegriff: te
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+    [1] => Array
+        (
+            [type] => customer
+            [id] => 6
+            [customer_id] => 6
+            [name] => Data Syncc GmbH
+            [details] => Kontakt: Bernd, E-Mail: test@test.de
+        )
+
+    [2] => Array
+        (
+            [type] => hardware
+            [id] => 47
+            [customer_id] => 1
+            [name] => Server - Intel (73_B, SN: 4278721, Status: active) - Kunde: Acme Corp
+        )
+
+    [3] => Array
+        (
+            [type] => software
+            [id] => 28
+            [customer_id] => 2
+            [name] => Test-Software - ff v12 (Tech Innovations)
+        )
+
+    [4] => Array
+        (
+            [type] => software
+            [id] => 29
+            [customer_id] => 6
+            [name] => Test-Software2 - t v55 (Data Syncc GmbH)
+        )
+
+    [5] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 4
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Blink Office)
+        )
+
+    [6] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 3
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Open Office)
+        )
+
+    [7] => Array
+        (
+            [type] => employee
+            [id] => 33
+            [customer_id] => 6
+            [name] => Peter Pan (Kunde: Data Syncc GmbH)
+        )
+
+)
+
+🔍 Neue Suchanfrage erhalten...
+🔍 Neue Suchanfrage erhalten...
+🔎 Suchbegriff: tech
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+)
+
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+)
+
+🔍 Neue Suchanfrage erhalten...
+🔍 Neue Suchanfrage erhalten...
+🔎 Suchbegriff: tech
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+)
+
+🔎 Suchbegriff: tech
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+)
+
+🔍 Neue Suchanfrage erhalten...
+🔍 Neue Suchanfrage erhalten...
+🔎 Suchbegriff: tec
+🔎 Suchbegriff: tec
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+)
+
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+)
+
+🔍 Neue Suchanfrage erhalten...
+🔍 Neue Suchanfrage erhalten...
+🔎 Suchbegriff: te
+🔎 Suchbegriff: te
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+    [1] => Array
+        (
+            [type] => customer
+            [id] => 6
+            [customer_id] => 6
+            [name] => Data Syncc GmbH
+            [details] => Kontakt: Bernd, E-Mail: test@test.de
+        )
+
+    [2] => Array
+        (
+            [type] => hardware
+            [id] => 47
+            [customer_id] => 1
+            [name] => Server - Intel (73_B, SN: 4278721, Status: active) - Kunde: Acme Corp
+        )
+
+    [3] => Array
+        (
+            [type] => software
+            [id] => 28
+            [customer_id] => 2
+            [name] => Test-Software - ff v12 (Tech Innovations)
+        )
+
+    [4] => Array
+        (
+            [type] => software
+            [id] => 29
+            [customer_id] => 6
+            [name] => Test-Software2 - t v55 (Data Syncc GmbH)
+        )
+
+    [5] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 4
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Blink Office)
+        )
+
+    [6] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 3
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Open Office)
+        )
+
+    [7] => Array
+        (
+            [type] => employee
+            [id] => 33
+            [customer_id] => 6
+            [name] => Peter Pan (Kunde: Data Syncc GmbH)
+        )
+
+)
+
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+    [1] => Array
+        (
+            [type] => customer
+            [id] => 6
+            [customer_id] => 6
+            [name] => Data Syncc GmbH
+            [details] => Kontakt: Bernd, E-Mail: test@test.de
+        )
+
+    [2] => Array
+        (
+            [type] => hardware
+            [id] => 47
+            [customer_id] => 1
+            [name] => Server - Intel (73_B, SN: 4278721, Status: active) - Kunde: Acme Corp
+        )
+
+    [3] => Array
+        (
+            [type] => software
+            [id] => 28
+            [customer_id] => 2
+            [name] => Test-Software - ff v12 (Tech Innovations)
+        )
+
+    [4] => Array
+        (
+            [type] => software
+            [id] => 29
+            [customer_id] => 6
+            [name] => Test-Software2 - t v55 (Data Syncc GmbH)
+        )
+
+    [5] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 4
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Blink Office)
+        )
+
+    [6] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 3
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Open Office)
+        )
+
+    [7] => Array
+        (
+            [type] => employee
+            [id] => 33
+            [customer_id] => 6
+            [name] => Peter Pan (Kunde: Data Syncc GmbH)
+        )
+
+)
+
+🔍 Neue Suchanfrage erhalten...
+🔎 Suchbegriff: te
+🔍 Neue Suchanfrage erhalten...
+🔎 Suchbegriff: te
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+    [1] => Array
+        (
+            [type] => customer
+            [id] => 6
+            [customer_id] => 6
+            [name] => Data Syncc GmbH
+            [details] => Kontakt: Bernd, E-Mail: test@test.de
+        )
+
+    [2] => Array
+        (
+            [type] => hardware
+            [id] => 47
+            [customer_id] => 1
+            [name] => Server - Intel (73_B, SN: 4278721, Status: active) - Kunde: Acme Corp
+        )
+
+    [3] => Array
+        (
+            [type] => software
+            [id] => 28
+            [customer_id] => 2
+            [name] => Test-Software - ff v12 (Tech Innovations)
+        )
+
+    [4] => Array
+        (
+            [type] => software
+            [id] => 29
+            [customer_id] => 6
+            [name] => Test-Software2 - t v55 (Data Syncc GmbH)
+        )
+
+    [5] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 4
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Blink Office)
+        )
+
+    [6] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 3
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Open Office)
+        )
+
+    [7] => Array
+        (
+            [type] => employee
+            [id] => 33
+            [customer_id] => 6
+            [name] => Peter Pan (Kunde: Data Syncc GmbH)
+        )
+
+)
+
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+    [1] => Array
+        (
+            [type] => customer
+            [id] => 6
+            [customer_id] => 6
+            [name] => Data Syncc GmbH
+            [details] => Kontakt: Bernd, E-Mail: test@test.de
+        )
+
+    [2] => Array
+        (
+            [type] => hardware
+            [id] => 47
+            [customer_id] => 1
+            [name] => Server - Intel (73_B, SN: 4278721, Status: active) - Kunde: Acme Corp
+        )
+
+    [3] => Array
+        (
+            [type] => software
+            [id] => 28
+            [customer_id] => 2
+            [name] => Test-Software - ff v12 (Tech Innovations)
+        )
+
+    [4] => Array
+        (
+            [type] => software
+            [id] => 29
+            [customer_id] => 6
+            [name] => Test-Software2 - t v55 (Data Syncc GmbH)
+        )
+
+    [5] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 4
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Blink Office)
+        )
+
+    [6] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 3
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Open Office)
+        )
+
+    [7] => Array
+        (
+            [type] => employee
+            [id] => 33
+            [customer_id] => 6
+            [name] => Peter Pan (Kunde: Data Syncc GmbH)
+        )
+
+)
+
+Neue Suchanfrage erhalten...
+Neue Suchanfrage erhalten...
+Suchbegriff: te
+Suchbegriff: te
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+    [1] => Array
+        (
+            [type] => customer
+            [id] => 6
+            [customer_id] => 6
+            [name] => Data Syncc GmbH
+            [details] => Kontakt: Bernd, E-Mail: test@test.de
+        )
+
+    [2] => Array
+        (
+            [type] => hardware
+            [id] => 47
+            [customer_id] => 1
+            [name] => Server - Intel (73_B, SN: 4278721, Status: active) - Kunde: Acme Corp
+        )
+
+    [3] => Array
+        (
+            [type] => software
+            [id] => 28
+            [customer_id] => 2
+            [name] => Test-Software - ff v12 (Tech Innovations)
+        )
+
+    [4] => Array
+        (
+            [type] => software
+            [id] => 29
+            [customer_id] => 6
+            [name] => Test-Software2 - t v55 (Data Syncc GmbH)
+        )
+
+    [5] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 4
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Blink Office)
+        )
+
+    [6] => Array
+        (
+            [type] => license
+            [id] => 15
+            [software_id] => 3
+            [name] => Test Lizenz 34 (Key: 555, Ablauf: 2025-02-26, Software: Open Office)
+        )
+
+    [7] => Array
+        (
+            [type] => employee
+            [id] => 33
+            [customer_id] => 6
+            [name] => Peter Pan (Kunde: Data Syncc GmbH)
+        )
+
+)
+
+Neue Suchanfrage erhalten...
+Neue Suchanfrage erhalten...
+Suchbegriff: tec
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+)
+
+Suchbegriff: tec
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+)
+
+Neue Suchanfrage erhalten...
+Suchbegriff: tech
+Neue Suchanfrage erhalten...
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+)
+
+Suchbegriff: tech
+✅ Ergebnisse gefunden: Array
+(
+    [0] => Array
+        (
+            [type] => customer
+            [id] => 2
+            [customer_id] => 2
+            [name] => Tech Innovations
+            [details] => Kontakt: Alice Smith, E-Mail: alice.smith@example.com
+        )
+
+)
+

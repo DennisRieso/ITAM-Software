@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Kunde verwalten</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Eigene CSS Datei -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</head>
+<body class="bg-light">
+    <div class="container mt-4">
+        <h2 class="text-center">Kundenverwaltung</h2>
+        <form method="POST" action="index.php?act=manage_customer&id=###id###" class="p-4 bg-white shadow rounded">
+            <input type="hidden" name="id" value="###id###">
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="company_name" class="form-label">Firmenname:</label>
+                    <input type="text" id="company_name" name="company_name" value="###company_name###" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="contact_person" class="form-label">Ansprechpartner:</label>
+                    <input type="text" id="contact_person" name="contact_person" value="###contact_person###" class="form-control">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <label for="email" class="form-label">E-Mail:</label>
+                    <input type="email" id="email" name="email" value="###email###" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="phone" class="form-label">Telefon:</label>
+                    <input type="text" id="phone" name="phone" value="###phone###" class="form-control">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <label for="street" class="form-label">Straße:</label>
+                    <input type="text" id="street" name="street" value="###street###" class="form-control">
+                </div>
+                <div class="col-md-2">
+                    <label for="house_number" class="form-label">Hausnummer:</label>
+                    <input type="text" id="house_number" name="house_number" value="###house_number###" class="form-control">
+                </div>
+                <div class="col-md-2">
+                    <label for="postal_code" class="form-label">PLZ:</label>
+                    <input type="text" id="postal_code" name="postal_code" value="###postal_code###" class="form-control">
+                </div>
+                <div class="col-md-2">
+                    <label for="location" class="form-label">Ort:</label>
+                    <input type="text" id="location" name="location" value="###location###" class="form-control">
+                </div>
+            </div>
+            <!-- Verknüpfungen mit Mitarbeitern, Hardware & Software -->
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <label for="employee_ids" class="form-label">Verknüpfte Mitarbeiter:</label>
+                    <select id="employee_ids" name="employee_ids[]" multiple class="form-select">
+                        ###EMPLOYEE_OPTIONS###
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="hardware_ids" class="form-label">Verknüpfte Hardware:</label>
+                    <select id="hardware_ids" name="hardware_ids[]" multiple class="form-select">
+                        ###HARDWARE_OPTIONS###
+                    </select>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <label for="software_ids" class="form-label">Verknüpfte Software:</label>
+                    <select id="software_ids" name="software_ids[]" multiple class="form-select">
+                        ###SOFTWARE_OPTIONS###
+                    </select>
+                </div>
+            </div>
+            <div class="mt-4 text-center">
+                <button type="submit" name="send" class="btn btn-success"><i class="bi bi-check-circle"></i> Speichern</button>
+                <a href="index.php?act=list_customer" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Zurück</a>
+            </div>
+        </form>
+    </div>
+    <!-- Bootstrap JavaScript -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

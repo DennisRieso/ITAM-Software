@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Hardware verwalten</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Eigene CSS Datei -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</head>
+<body class="bg-light">
+    <div class="container mt-4">
+        <h2 class="text-center">Hardwareverwaltung</h2>
+        <form method="POST" action="index.php?act=manage_hardware&customer_id=###CUSTOMER_ID###" class="p-4 bg-white shadow rounded">
+            <input type="hidden" name="id" value="###ID###">
+            <input type="hidden" name="customer_id" value="###CUSTOMER_ID###">
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="type" class="form-label">Typ:</label>
+                    <input type="text" id="type" name="type" value="###TYPE###" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="manufacturer" class="form-label">Hersteller:</label>
+                    <input type="text" id="manufacturer" name="manufacturer" value="###MANUFACTURER###" class="form-control" required>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <label for="model" class="form-label">Modell:</label>
+                    <input type="text" id="model" name="model" value="###MODEL###" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="serial_number" class="form-label">Seriennummer:</label>
+                    <input type="text" id="serial_number" name="serial_number" value="###SERIAL_NUMBER###" class="form-control" required>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <label for="status" class="form-label">Status:</label>
+                    <select id="status" name="status" class="form-select" style="height: 38px;">
+                        <option value="active" ###STATUS_ACTIVE###>Aktiv</option>
+                        <option value="inactive" ###STATUS_INACTIVE###>Inaktiv</option>
+                        <option value="retired" ###STATUS_RETIRED###>Ausgemustert</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <label for="software_ids" class="form-label">Verknüpfte Software:</label>
+                    <select id="software_ids" name="software_ids[]" class="form-select" multiple>
+                        ###SOFTWARE_OPTIONS###
+                    </select>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <label for="customer_ids" class="form-label">Verknüpfte Kunden:</label>
+                    <select id="customer_ids" name="customer_ids[]" class="form-select" multiple>
+                        ###CUSTOMER_OPTIONS###
+                    </select>
+                </div>
+            </div>
+            <div class="mt-4 text-center">
+                <button type="submit" name="send" class="btn btn-success"><i class="bi bi-check-circle"></i> Speichern</button>
+                <a href="###BACK_LINK###" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Zurück</a>
+            </div>
+        </form>
+    </div>
+    <!-- Bootstrap JavaScript -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

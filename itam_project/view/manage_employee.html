@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Mitarbeiter verwalten</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Eigene CSS Datei -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</head>
+<body class="bg-light">
+    <div class="container mt-4">
+        <h2 class="text-center">Mitarbeiterverwaltung</h2>
+        <form action="index.php?act=manage_employee&customer_id=###CUSTOMER_ID###" method="POST" class="p-4 bg-white shadow rounded">
+            <input type="hidden" name="id" value="###ID###">
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="first_name" class="form-label">Vorname:</label>
+                    <input type="text" id="first_name" name="first_name" value="###FIRST_NAME###" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="last_name" class="form-label">Nachname:</label>
+                    <input type="text" id="last_name" name="last_name" value="###LAST_NAME###" class="form-control" required>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <label for="email" class="form-label">E-Mail:</label>
+                    <input type="email" id="email" name="email" value="###EMAIL###" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="user_roles_id" class="form-label">Rolle:</label>
+                    <select id="user_roles_id" name="user_roles_id" class="form-select" style="height: 38px;">
+                        ###ROLE_OPTIONS###
+                    </select>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <label for="customer_ids" class="form-label">Kunden:</label>
+                    <select id="customer_ids" name="customer_ids[]" multiple class="form-select">
+                        ###CUSTOMER_OPTIONS###
+                    </select>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    ###PASSWORD_FIELD###
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <label for="password" class="form-label">Passwort (leer lassen, wenn unverändert):</label>
+                    <input type="password" id="password" name="password" placeholder="********" class="form-control">
+                </div>
+            </div>
+            <div class="mt-4 text-center">
+                <button type="submit" name="send" class="btn btn-success"><i class="bi bi-check-circle"></i> Speichern</button>
+                <a href="###BACK_LINK###" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Zurück</a>
+            </div>
+        </form>
+    </div>
+    <!-- Bootstrap JavaScript -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

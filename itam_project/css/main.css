@@ -1,0 +1,230 @@
+/* BASIS */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f9fa;
+}
+form {
+    width: 50%;
+    margin: auto;
+}
+.user-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+    gap: 10px;
+    padding: 10px 0;
+}
+.actions {
+    text-align: center;
+    max-width: 400px;
+}
+.login-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.login-header {
+    margin-bottom: 20px;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+/* BUTTONS */
+.btn-danger {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/* Allgemeine Button-Styles */
+.edit-btn, .delete-btn, .btn-warning, .log-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 5px;
+    transition: all 0.3s ease-in-out;
+    border: none;
+}
+/* Bearbeiten-Button */
+.edit-btn {
+    background-color: #adb5bd;
+    color: black;
+    min-width: 140px;
+    max-width: 250px;
+    display: flex;
+    gap: 8px;
+    text-align: center;
+}
+.edit-btn:hover {
+    background-color: #868e96;
+    color: white;
+}
+.edit-btn i {
+    font-size: 16px;
+}
+/* Löschen-Button */
+.delete-btn {
+    background-color: #dc3545; 
+    color: white;
+    min-width: 120px;
+}
+.delete-btn:hover {
+    background-color: #75101a;
+}
+/* Warn-Button */
+.btn-warning {
+    background-color: #ffc107; 
+    color: black;
+    min-width: 120px;
+}
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+/* Log-Button */
+.log-btn {
+    background-color: #6c757d;
+    color: white;
+    min-width: 120px;
+}
+.log-btn:hover {
+    background-color: #5a6268;
+}
+.license-btn {
+    background-color: #e09f3e;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 2px;
+    display: inline-block;
+    font-weight: normal;
+    transition: background-color 0.3s ease-in-out;
+    border: none;
+    }
+.license-btn:hover {
+    background-color: #c67c2e;
+}
+.btn-primary {
+    width: 100%;
+    background-color: #0056b3;
+    border-color: #004494;
+}
+.btn-primary:hover {
+    background-color: #004494;
+    border-color: #003366;
+}
+.back-btn {
+    display: inline-block !important; 
+    margin: 2px auto; 
+    padding: 5px 10px;
+    background: #0056b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 2px;
+    width: fit-content !important; 
+    text-align: center;
+    font-weight: bold;
+}
+.back-btn:hover {
+    background: #004494;
+}
+/* FORMULARE */
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+select {
+    height: 120px;
+}
+/* Error */
+.error-box {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid red;
+    background-color: #ffe6e6;
+    border-radius: 5px;
+}
+.error-msg {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+/* Tabellen */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+td.actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+/* Suche */
+.search-results-container {
+    position: absolute;
+    top: 100%; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%; 
+    max-width: 600px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1050;
+    display: none;
+}
+.search-result-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.search-result-item {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.search-result-list li:last-child .search-result-item {
+    border-bottom: none;
+}
+.search-result-item:hover {
+    background-color: #f8f9fa;
+}
+.search-input {
+    width: 50% !important;  
+    max-width: 200px !important; 
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}

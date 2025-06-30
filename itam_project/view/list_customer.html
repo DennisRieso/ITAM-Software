@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Kundenverwaltung</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Eigene CSS Datei -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</head>
+<body class="bg-light">
+
+    <div class="container mt-4">
+        <!-- Benutzer-Info & Logout -->
+        <div class="text-center mb-3">
+            <p class="user-info fw-bold">
+                ✅ Eingeloggt als: <strong>###USERNAME###</strong>  
+            </p>
+            <a href="index.php?act=logout" class="btn btn-danger btn-sm px-3 shadow">
+                <i class="bi bi-box-arrow-right"></i> Logout
+            </a>
+        </div>
+        <!-- Suchfeld -->
+        <div class="mb-4 position-relative text-center">
+            <input type="text" class="form-control form-control-lg w-50 mx-auto search-input rounded-pill shadow" placeholder="🔎 Suche...">
+            <div id="search-results" class="search-results-container"></div>
+        </div> 
+        <h2 class="mt-4 text-center fw-bold">Kundenübersicht</h2>
+        <!-- Tabelle mit Bootstrap-Styling -->
+        <div class="table-responsive">
+            <table id="customerTable" class="table table-striped table-hover table-bordered align-middle shadow-lg rounded">
+                <thead class="table-dark text-center sticky-top">
+                    <tr>
+                        <th class="p-3">ID</th>
+                        <th class="p-3">Unternehmen</th>
+                        <th class="p-3">Kontaktperson</th>
+                        <th class="p-3">E-Mail</th>
+                        <th class="p-3">Telefon</th>
+                        <th class="p-3">Straße</th>
+                        <th class="p-3">Hausnummer</th>
+                        <th class="p-3">PLZ</th>
+                        <th class="p-3">Ort</th>
+                        <th class="p-3">Aktionen</th>
+                    </tr>
+                </thead>
+                <tbody id="customerTableBody" class="table-light">
+                    ###CUSTOMER_ROWS### <!-- Platzhalter für dynamische Kundenliste -->
+                </tbody>
+            </table>
+        </div>
+        <!-- Aktionsbuttons -->
+        <div class="mt-4 d-flex flex-wrap justify-content-center gap-3">
+            ###NEW_CUSTOMER_BUTTON###
+            ###VIEW_ALL_HARDWARE_BUTTON###
+            ###VIEW_ALL_SOFTWARE_BUTTON###
+            ###VIEW_ALL_LICENSE_BUTTON###
+            ###VIEW_ALL_EMPLOYEE_BUTTON###
+        </div>
+    </div>
+    <!-- Bootstrap JavaScript -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
